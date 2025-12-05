@@ -1,5 +1,21 @@
-# Object file
-*.o
+# Ignore compiled output
+    *.o
+    *.class
+    *.pyc
+    *.cbp
 
-# Ada Library Information
-*.ali
+    # Ignore temporary files
+    *.tmp
+    *~
+
+    # Ignore build directories
+    build/
+    dist/
+    bin/
+    obj/
+
+    # Ignore node_modules for JavaScript projects
+    node_modules/
+
+    # Ignore environment variables
+    .env
